@@ -1,2 +1,2 @@
 # MemeApp
-It's an Android app codes to acwss
+It's an Android app codes to acess
