@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#FF404BDD">
+
+	<ImageView
+		android:id="@+id/ImgV"
+		android:layout_marginTop="75dp"
+		android:layout_marginLeft="33dp"
+		android:layout_width="300dp"
+		android:layout_height="200dp"
+		android:adjustViewBounds="true"
+		android:background="#FF404BDD">
+
+	</ImageView>
+
+	<Button
+		android:id="@+id/BTNShare"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Share"
+		android:layout_marginTop="400dp"
+		android:layout_marginLeft="270dp"
+		android:background="#FFFF0982"/>
+
+	<Button
+		android:id="@+id/BTN_Next"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Next_Meme"
+		android:layout_marginTop="400dp"
+		android:background="#FFED4A4A"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Meta"
+		android:id="@+id/text"
+		android:layout_marginTop="33dp"
+		android:layout_marginLeft="62dp"/>
+
+	<ProgressBar
+		android:layout_width="wrap_content"
+		style="?android:attr/progressBarStyleLarge"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="150dp"
+		android:layout_marginTop="140dp"
+		android:id="@+id/prog"/>
+
+</RelativeLayout>
+
